@@ -30,6 +30,8 @@ public class Address {
         byte[] addr = ConvertBits.convertBits(bytes, 0, bytes.length, 8, 5, true);
         return Bech32.encode(PREFIX, addr);
 
+
+
     }
 
     /**
