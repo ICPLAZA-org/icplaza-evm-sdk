@@ -37,10 +37,13 @@
 ```
 > code snippets
 ```java
+
 String unSignedMsg = "my json data above";
 //change to your private key assoctiated with from_address
 String privateKey = "930a1a4a2ef2d8184b5ad89b4fc67f4daa1945e16b386d99655af45f2444abf3";
 String signedMsg = Transaction.signJson(json, privateKey);
+
+
 ```
 > after signature
 ```json
@@ -85,3 +88,10 @@ String signedMsg = Transaction.signJson(json, privateKey);
     }
 }
 ```
+com.icplaza.evm.MsgTest.sendTest()  Transfer Test
+
+com.icplaza.evm.MsgTest.createAddress()  Create Account
+
+com.icplaza.evm.MsgTest.getBlock()  Query block information
+
+com.icplaza.evm.MsgTest.getTx()  Query transaction information
